@@ -1,4 +1,8 @@
 # ci_cd_deployment_using_ansible
 
-CI-example
-This repository will store code for the continuous integration using Jenkins and Ansible
+Steps to Perform:
+
+Configure Jenkins server as Ansible provisioning machine
+Install Ansible plugins in Jenkins CI server
+Prepare Ansible playbook to run Maven build on Jenkins CI server
+Prepare Ansible playbook to execute deployment steps on the remote web container with restart of the web container post deployment
